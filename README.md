@@ -1,12 +1,8 @@
 # DDPM from scratch on CIFAR-10
 
-I wanted to actually understand diffusion models — not just import `diffusers`
-and call it a day. So I implemented DDPM (Ho et al., 2020) end-to-end on
+I wanted to understand diffusion models — not just import `diffusers`. So I implemented DDPM (Ho et al., 2020) end-to-end on
 CIFAR-10: the U-Net, the forward/reverse processes, the training loop, the
-ancestral sampler, and FID evaluation. No high-level diffusion libraries doing
-the heavy lifting.
-
-## What's in `src/`
+ancestral sampler, and FID evaluation.
 
 | File | What it does |
 |---|---|
